@@ -37,7 +37,7 @@ describe("Tests getSpecificUsers", () => {
 
     await waitFor(() => {
       userSpecific
-        .getSpecificUsers("softadmin22")
+        .getSpecificUsers("useradmin22")
         .then((value) => expect(value).toHaveLength(3));
     });
   });
